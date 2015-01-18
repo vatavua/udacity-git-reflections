@@ -3,3 +3,6 @@ When a new repository is initialized, new .git directory is created. In other wo
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area may be regarded as a temporary directory (cache) where new files are added. It allows us to incrementally add the new files and the to commit the changes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+The staging area can be used to collect only those changes that describe the 'logical change', even there are more modified files. After that a new commit can be created. Tha opperation can be repeated if there is more tan one logical commit in the working directory.
