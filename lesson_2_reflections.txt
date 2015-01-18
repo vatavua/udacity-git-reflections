@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+When a new repository is initialized, new .git directory is created. In other words necessary config/stats/ingo/description files are created for managing the new repository. We need to do it because otherwise git (as an application) would not be able to identify and manage our new project.

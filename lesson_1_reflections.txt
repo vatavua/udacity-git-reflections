@@ -1,0 +1,29 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+the diff command identifies the difference lines between two files. Usually these two files represent and older version and a newer version of the same file. Based on these difference one can make some conclusions on how the file was changed in time. In this way the possible mistakes can beidentified.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+efficient programming means a fast checking and switching between different changes. In other ords, the more organised is our workspace the more clear are our specifications and further todos and the more efficient is our way of programming. Having an easy access to the entire histore make these tasks to be achieved in an effective manner.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+pros: 
+- user knows better when a logical commit should be made
+- Flexibility/freedom on choosing when to save a new version of the project
+cons:
+- sometimes due to our human nature we forget to save our projects. In this case we also could forget to commit our new changes
+- need to learn new commands to pull/push/commit new project versions.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+- Git is adapted for managing projects (that are usually composed by multiple files) while in google docs it is considered that one file represent a project (in my point of view Google docs is seen as an online editor and file storage but not as a version manager like git)
+
+How can you use the commands git log and git diff to view the history of files?
+- 'git log' is used in order to find the list of commits sorted by dates in descendent order
+- 'git diff commit_id_current commit_id_prev' command could be used to identify the differences. An overview description about the new changes in the new commit could be obtained by using 'git diff --stat commit_id1 commit_id2'
+
+How might using version control make you more confident to make changes that could break something?
+- Each time a new change has breaked something we can "rollback" tho a previous version of our project by using 'git checkout -b perv_commit_id. This increases our confidence in using version control.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+- I would use git for some personal projects. On windows we use Tortoise GIT. It is a visual interface with the same git functions.
