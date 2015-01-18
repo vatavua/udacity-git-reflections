@@ -10,4 +10,5 @@ The staging area can be used to collect only those changes that describe the 'lo
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 The branches are helpful especially when we have to do some alternative experimental versions or when we want to implement different versions of the same project. The new branches can be used in parallel with the master branch and at some point in time they can be merged.
 
-test1
+How do the diagrams help you visualize the branch structure?
+Through diagrams we have a graph with the entire commits and branch structure. Each commit represents a node in the graph. By having an overview of our history of commits as a node-based network we can operate more easely on the existing changes.
