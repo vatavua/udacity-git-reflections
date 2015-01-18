@@ -9,3 +9,5 @@ The staging area can be used to collect only those changes that describe the 'lo
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 The branches are helpful especially when we have to do some alternative experimental versions or when we want to implement different versions of the same project. The branches can be used in parallel with the master branch and at some point in time.
+
+test 2
