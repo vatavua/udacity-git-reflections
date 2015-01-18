@@ -6,8 +6,3 @@ The staging area may be regarded as a temporary directory (cache) where new file
 
 How can you use the staging area to make sure you have one commit per logical change?
 The staging area can be used to collect only those changes that describe the 'logical change', even there are more modified files. After that a new commit can be created. Tha opperation can be repeated if there is more tan one logical commit in the working directory.
-
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-The branches are helpful especially when we have to do some alternative experimental versions or when we want to implement different versions of the same project. The branches can be used in parallel with the master branch and at some point in time.
-
-test 2
