@@ -15,3 +15,10 @@ Through diagrams we have a graph with the entire commits and branch structure. E
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The merging process will try to merge the changes made in the two braches in a single branch. The destination branch will be the branch we are checked up. So before the merging process we should verify that we are on a correct branch. The merging will take into account the 'head' commits in each branch and the parrent commit where the branches where started to split. The new modfication (additions and deletions of the new content) will be reflected in the merged file. The lines that were modified in both branches will generate a commit situation. In this case the user should manually choose or modify the conflict lines in the files and tray again to commit these changes. The generated diagrams helps the user to visualize better the commit distribution over the entire network and branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros:
+- Some repetitive tasks are executed by Git. For example: adding new information or removing some old information (when there is no a conflict).
+- Actually, Git seems to be a trade of between doing merges manually (time consuming) and doing merges completely automatically (low reliability).
+Cons:
+- There is no waranty that our merge result will lead to the expected results: for example some modification may be added accidentally by a contributor, in this case, the automatic merge of commits will provide uncorrect or wrong results.
