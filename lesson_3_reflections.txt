@@ -3,3 +3,4 @@ When would you want to use a remote repository rather than keeping all your work
 - When sharing the personal contribution with other friends or when I would like to make the project public.
 - For a teacher, sometimes it's a good idea to initiate a public repository for students to collect all assessments, homework projects or to share new lessons and tutorials with students.
 - For a startup project when there are more collaborators.
+- When I want to have access to my repository from anywhere.
