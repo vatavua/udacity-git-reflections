@@ -4,3 +4,8 @@ When would you want to use a remote repository rather than keeping all your work
 - For a teacher, sometimes it's a good idea to initiate a public repository for students to collect all assessments, homework projects or to share new lessons and tutorials with students.
 - For a startup project when there are more collaborators.
 - When I want to have access to my repository from anywhere.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+- By using the manual pull of new changes we can obtain a higher flexibility and consistence. Sometimes, by having an automate sync with the repository might lead to unwanted conflicts with the existing commits. More than that, as I guess, the pull process tries to merge the remote content with the existing local commit (HEAD). What happens if we have made some changes but have not committed yet?  In this case the system would force us to commit our partial changes otherwise the pull process would fail. Hence, the best scenario would be to do pull the remote content manually.
+- Similarly to the commit process we might want to pull new changes only before starting or after finishing a logical task. It would be quite annoying to have a sudden change in the local project in the middle of doing something. 
