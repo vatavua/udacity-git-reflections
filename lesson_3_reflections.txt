@@ -19,4 +19,9 @@ What is the benefit of having a copy of the last known state of the remote store
 
 One of the benefits having a copy of the remote state stored locally is the ability to work offline without needing the connection to the remote repository. Another benefit is that we can return to the remote commits several times, accessing them, checking the differences without needing to connect to the repository each time (avoiding the server and communication overhead). If something goes wrong we can always recover another copy of changes from the remote repository. And more, there are two way to merge the two branches master and origin/master: 1. Merging the origin/master into master and 2. Merging the local master into the origin/master.  I think it is more safe to perform both these operations locally and only after finishing them to push the new commit . 
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+There are several alternatives. Some of these alternatives were mentioned in the Lesson 1, i.e. Google Docs, Dropbox, SVN etc. If we talk about editing some documents, then I would prefer to work with Gogle Docs. It allows to work concurrently on the same document and to see what others are working on. If we are talking about media files or pictures, then I would prefer to work with Dropbox. It is an easy way to centralize and synchronize in real-time different files from different computers or mobile devices. However, if we are talking about version control then I would prefer GIT. The only drawback with GIT is that sometimes it is quite hard to visualize the whole scenario or what you are going to do. If you don’t use frequently GIT, then all these version control principles or specific commands are forgotten very easy. Perhaps a more intuitive application based on GIT is the Tortoise GIT which provides a visual and intuitive interface to perform all operations described in this course.
+
+
 
