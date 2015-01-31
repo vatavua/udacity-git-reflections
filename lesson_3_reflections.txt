@@ -15,3 +15,8 @@ Describe the differences between forks, clones, and branches. When would you use
 The difference between the fork and clone operation is that the fork replicate a repository directly on the GitHub while the clone is applied to create a copy of the same repository on the local computer. A copy can be mate either form a public repository or from a local computer repository. The fork is a kind of clone, but used as a feature of the GitHub platform, while “clone” is an existing command in the Git application. A branch is seen as a chain of several commits. Branch operate on commits and are a part of a repository while forks and clones operate on repositories.
 One can use forks instead of clones to copy other repositories directly on the GitHub. Clones are used for the same purpose but are executed locally on a computer. Branches are used used to merge, commit, push or pull the changed content.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+One of the benefits having a copy of the remote state stored locally is the ability to work offline without needing the connection to the remote repository. Another benefit is that we can return to the remote commits several times, accessing them, checking the differences without needing to connect to the repository each time (avoiding the server and communication overhead). If something goes wrong we can always recover another copy of changes from the remote repository. And more, there are two way to merge the two branches master and origin/master: 1. Merging the origin/master into master and 2. Merging the local master into the origin/master.  I think it is more safe to perform both these operations locally and only after finishing them to push the new commit . 
+
+
