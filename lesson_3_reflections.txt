@@ -23,5 +23,10 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 There are several alternatives. Some of these alternatives were mentioned in the Lesson 1, i.e. Google Docs, Dropbox, SVN etc. If we talk about editing some documents, then I would prefer to work with Gogle Docs. It allows to work concurrently on the same document and to see what others are working on. If we are talking about media files or pictures, then I would prefer to work with Dropbox. It is an easy way to centralize and synchronize in real-time different files from different computers or mobile devices. However, if we are talking about version control then I would prefer GIT. The only drawback with GIT is that sometimes it is quite hard to visualize the whole scenario or what you are going to do. If you don’t use frequently GIT, then all these version control principles or specific commands are forgotten very easy. Perhaps a more intuitive application based on GIT is the Tortoise GIT which provides a visual and intuitive interface to perform all operations described in this course.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+As discussed in this course, using different branches is more appropriate when we are going to develop an alternative or an experimental version of the same project. Usually in a collaborative environment it’s very easy to make a mistake. So, by using different branches for different tasks is a safe method to develop a project. For small projects, or in the incipient phases, using only the “master” branch would imply a less overhead, however for mature projects, used by hundreds or thousands of clients it is mandatory to have a release version of the project which commits are merged/tested and are stored on the “master” branch. At the same time some new “beta” versions can reside on other branches that are going to be tested and, finally, merged into the “master” branch.
+
+
 
 
